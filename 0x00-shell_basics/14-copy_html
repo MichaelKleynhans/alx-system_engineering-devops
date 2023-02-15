@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Use rsync to copy HTML files from the current working directory to the parent directory
+rsync -av --update --exclude="*" --include="*.html" . ../
+

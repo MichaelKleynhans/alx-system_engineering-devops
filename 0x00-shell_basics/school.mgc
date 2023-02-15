@@ -1,0 +1,4 @@
+#!/bin/bash
+0 string SCHOOL
+sudo cp school.mgc /usr/share/misc/
+file -m /usr/share/misc/school.mgc <filename>
